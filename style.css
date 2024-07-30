@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    background-image: linear-gradient(120deg, #e2c35d, #d88771);
+    background-image: linear-gradient(120deg, #a5f3fC, #0d9488);
     color: white;
     font-family: "Poppins", sans-serif;
     min-height: 100vh;
@@ -25,13 +25,13 @@ form input, form button {
     background: white;
 }
 form button {
-    color: #d88771;
+    color: #0d9488;
     background: white;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 form button:hover {
-    background: #d88771;
+    background: #0d9488;
     color: white;
 }
 .todo-container {
@@ -97,7 +97,7 @@ select {
     overflow: hidden;
 }
 select {
-    color: #ff6f47;
+    color: #20d2ba;
     width: 100%;
     max-width: 10rem;
     cursor: pointer;
@@ -106,7 +106,7 @@ select {
 .select::after {
     content: "\25BC";
     position: absolute;
-    background: #ff6f47;
+    background: #2dd4bf;
     top: 0;
     right: 0;
     padding: 1rem;
@@ -115,7 +115,7 @@ select {
 }
 .select:hover::after {
     background: white;
-    color: #ff6f47;
+    color: #2dd4bf;
 }
 /* Media Queries for Mobile */
 @media (max-width: 768px) {
